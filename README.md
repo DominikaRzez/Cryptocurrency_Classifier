@@ -1,1 +1,5 @@
-# Cryptocurrency_Classifier
+<h1>Cryptocurrency Classifier</h1>
+<p> The following repository contains a machine learning model that determines whether cryptocurrencies can be grouped to create a classification system. Since there is no known classification system, the unsupervised learning has been used.
+  <br>The raw data has been first cleaned and preprocessed by filtering for currencies that are currently being traded, removing rows with null values, filtering for cryptocurrencies that have been mined, converting the categorical values to numerical ones with one-hot-encoding and standarising the dataset with StandardScaler.
+<br> After creating dummy variables, dimensionality reduction with PCA has been performed to transform large set of variables into a smaller one and 90% of the explained variance has been preserved. Next, further reduction of the dataset dimensions has been performed with t-SNE and the results have been inspected visually. 
+ <br> The elbow plot has been created to identify the best number of clusters. K-Means Model has been run with the k=4 and the predicted clusters have been visually presented.</p>
